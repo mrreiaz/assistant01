@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.header-content {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    max-width: 1140px;
+    margin: 0px auto;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+
+.header h4 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.header p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #FFFFFF;
+    text-align: right;
+    padding-left: 850px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005FAC;
+    padding: 26px;
+}
+
+.my-failures {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.my-failures-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 250px;
+    align-items: center;
+}
+
+.previous-year h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    /* padding-right: 475px; */
+    padding-bottom: 25px;
+}
+
+.previous-year p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    /* padding-right: 500px; */
+    padding-bottom: 18px;
+}
+/* my plans */
+.my-plans {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+.my-plans h2 {
+    padding: 100px 0px;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.tasks {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.tasks h3{
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+}
+
+.tasks p{
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;    
+}
+
+/* positive-mindset */
+
+.positive-mindset{
+
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.bg-img-div{
+    
+    background-image: url(../images/watch.png);
+
+}
+
+.bg-img-div div {
+    text-align: left;
+    padding: 60px 30px;
+}
+.bg-img-div div h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding-right: 490px;
+}
+
+footer {
+    margin: 0 auto;
+    background-color: black;
+}
+
+
+.footer-content {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: #fff;
+    padding: 100px 0;
+    max-width: 1140px;
+}
+
+
+.future p {
+    max-width: 400px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+.future h2{
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+
+.future p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+
+.subscribe h2{
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+
+.email{
+    display: block;
+    background: transparent;
+    border: 1px #fff solid;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F3F3F3;
+    height: 64px;
+    padding: 0 20px ;
+    
+}
+
+.btn-subscribe{
+    background: #005FAC;
+    border-radius: 8px;
+    color: #fff;
+}
